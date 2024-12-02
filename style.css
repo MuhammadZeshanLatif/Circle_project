@@ -1,0 +1,212 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, sans-serif;
+}
+.container1 {
+  position: absolute;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgb(201, 205, 208);
+}
+.container2 {
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgb(181, 184, 189);
+}
+
+.container3 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgb(206, 209, 212);
+}
+.bckground {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  background-color: rgb(240 240 240);
+}
+.bckground2 {
+  position: absolute;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  background-color: rgb(240 240 240);
+}
+.levels {
+  transform-origin: 50% 50%;
+}
+
+.level1 {
+  border-top-left-radius: 200% 25%;
+  border-top-right-radius: 200% 25%;
+  translate: -38px 15px;
+  transform: rotate(18deg);
+  width: 0px;
+  height: 0px;
+  border-left: 88px solid transparent;
+  border-right: 88px solid transparent;
+  border-top: 287px solid rgb(43, 67, 101);
+  /* border-radius: 21%; */
+}
+.level2 {
+  translate: -40px -189px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 57px solid transparent;
+  border-right: 65px solid transparent;
+  border-top: 199px solid rgb(90 109 135);
+  transform: rotate(-343deg);
+  transform-origin: 50% 80%;
+  border-top-left-radius: 200% 20%;
+  border-top-right-radius: 200% 25%;
+}
+.level3 {
+  translate: -20px -96px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-top: 107px solid  #8996a9;
+  transform: rotate(-342deg);
+  transform-origin: 50% 80%;
+  border-top-left-radius: 200% 20%;
+  border-top-right-radius: 200% 25%;
+}
+.slice {
+  position: absolute;
+  width: 0.5px;
+  height: 100%;
+  background-color: rgb(193, 195, 199);
+  left: 50%;
+  transform-origin: 50% 50%;
+}
+
+.vision {
+  transform: rotate(0deg);
+}
+
+.expextation {
+  transform: rotate(36deg);
+}
+
+.decisivness {
+  transform: rotate(72deg);
+}
+
+.innovation {
+  transform: rotate(108deg);
+}
+
+.autonomy {
+  transform: rotate(144deg);
+}
+
+.transparency {
+  transform: rotate(180deg);
+}
+
+.colaboration {
+  transform: rotate(216deg);
+}
+
+.growth {
+  transform: rotate(252deg);
+}
+
+.fearlessness {
+  transform: rotate(288deg);
+}
+
+.energy {
+  transform: rotate(324deg);
+}
+.slice1-1 {
+  transform: rotate(18deg);
+}
+
+.slice2-2 {
+  transform: rotate(54deg);
+}
+
+.slice3-3 {
+  transform: rotate(90deg);
+}
+
+.slice4-4 {
+  transform: rotate(126deg);
+}
+
+.slice5-5 {
+  transform: rotate(162deg);
+}
+
+.slice6-6 {
+  transform: rotate(198deg);
+}
+
+.slice7-7 {
+  transform: rotate(234deg);
+}
+
+.slice8-8 {
+  transform: rotate(270deg);
+}
+
+.slice9-9 {
+  transform: rotate(306deg);
+}
+
+.slice10-10 {
+  transform: rotate(342deg);
+}
+.imgs {
+  color: #132E53;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid rgb(206, 209, 212);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  padding: auto;
+  font-size: 40px;
+  justify-content: center;
+  /* justify-self: center !important; */
+  align-items: center;
+  fill: #132E53;
+}
+.inner {
+  box-sizing: border-box;
+  translate: -50px -114px;
+  transform: rotate(342deg);
+}
+p {
+  translate: -20px;
+  font-style: initial;
+  color: #132E53;
+  font-weight: 500;
+  font-size: 18px;
+  /* translate: -50px -103px; */
+  display: inline-block;
+}
+
+
